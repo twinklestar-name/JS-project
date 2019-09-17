@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+<head>
+    <title> SHOPLane</title>
+    <link rel="icon" href="https://icon-library.net/images/store-icon/store-icon-5.jpg" type="image/icon">
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="./aos-master/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/02439a4d2c.js"></script>
+</head>
+<body>
+    <!-- ---------------------HEADER--------------------------------------------- -->
+    <header id="topbar">
+        <a id="title">SHOPLane</a>
+        <a>CLOTHING</a>
+        <a>ACCESSORIES</a>
+        <div id="right">
+            <input id="search" type="search" name="search" placeholder="What are you looking for?"/>
+            <i class="fas fa-search"></i>
+            <a href="./CheckOut.html"><i class="fas fa-shopping-cart"></i></a>
+            <button id="count">0</button>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+    <!-- ----------------------------COUROSEL---------------------------------------- -->
+    <div id="corousel">
+        <img class="banner" src="/assets/add.jpg" alt="banner1" style="height: 86vh;width:100%;">
+         <img class="banner" src="/assets/banner-watch-seri4.jpg" alt="" style="height: 86vh;width:100%;">
+        <img class="banner" src="/assets/new-banner.jpg" alt="banner" style="height: 86vh;width:100%;">
+        <img class="banner" src="./assets/sport-hook-01.jpg" alt="" style="height: 86vh;width:100%;">
+    </div>
+    <!-- <a href="#clothing" ><i class="fas fa-chevron-down"></i></a> -->
+    <!----------------------------- MAIN BODY-------------------- -->
+    <!-- ------------------------CLOTHING STARTING-------------------------- -->
+    <div id="clothing">
+        
+        <section id="cloth-img " data-aos="fade-right">
+            <img class="home-img" data-aos="fade-right" src="https://centralandme.com/wp-content/uploads/2017/09/electric-blue-thumb.jpg" alt="">
+            
+        </section>
+        <section id="cloth-desc" >
+            <h1 class="heading-tag" data-aos="fade-up">CLOTHING</h1>
+            <h1 class="tag" data-aos="fade-up">It’s not about brand, it’s about style.</h1>
+            <a href="./clothing.html" data-aos="fade-up"><button class="home-btn">SHOP CLOTHING</button></a>
+        </section>
+        
+    </div>
+    <!--------------------------- ACCESSORIES STARTING ---------------------------------->
+    <div id="accessories">
+        <section id="access-desc" data-aos="fade-up">
+                <h1 class="heading-tag" data-aos="fade-up">ACCESSORIES</h1>
+                <h1 class="tag" data-aos="fade-up">Magical and revolutionary devices at an unbelievable price.</h1>
+                <a href="./accessories.html" data-aos="fade-down-right"><button class="home-btn">SHOP ACCESSORIES</button></a>
+        </section>
+        <section id="access-img">
+                <img class="home-img" data-aos="fade-left" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg" alt="">
+        </section>
+    </div>
+    <!------------------------------- MAIN BODY ENDS-------------------- -->
+    <!-- <footer>
+        
+    </footer>  -->
+
+    <!-- JS INTEGRATION -->
+    <script src="/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./aos-master/dist/aos.js"></script>
+    <script src="/script.js"></script>
+    <script>AOS.init({
+        duration:2000,
+    })
+    </script>
+</body>
+</html>

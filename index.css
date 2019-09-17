@@ -1,0 +1,447 @@
+body
+{
+    /* box-sizing: border-box; */
+    margin:0;
+    padding: 0;
+}
+/*-----------------------------------------TOPBAR--------------------------------------------------------------------------*/
+#topbar
+{
+    height: 12vh;
+    font-size: 24px;
+    background-color: aliceblue;
+    padding:10px 20px; 
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+#title
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+#right
+{
+    display: inline;
+    margin-left:30%;
+    box-sizing: border-box;
+
+}
+#count
+{
+    border-radius:50%;
+    border:none;
+    position: relative;
+    z-index:1;
+    right:20px;
+    bottom:20px;
+}
+.fa-search
+{
+    cursor: pointer;
+    margin-left:1%;
+}
+.fa-shopping-cart
+{
+    margin-left: 1%;
+    padding:0.7%;
+    background-color:gainsboro;
+    color: black;
+    border-radius:50%;
+}
+.fa-user-circle
+{
+    margin-left: 1%;
+    cursor: pointer;
+    font-size: 180%;
+}
+#search
+{
+    width: 20%;
+    height:60%;
+    font-size: 18px;
+    border-radius:100px;
+    border: 0.28px solid black;
+    box-shadow:6px 2px 11px 1px silver;
+    outline: none;
+    margin-top: 0;
+}
+#profile
+{
+    height:58%;
+    width:4%;
+    margin-left:1%;
+    border-radius:50%;
+    margin-top:1%;
+}
+a
+{
+    padding-left: 20px;
+}
+/*------------------------------------TOPBAR ENDS----------------------------------------------------------------------------*/
+#corousel
+{
+    height: 86vh;
+    background-color: bisque;
+    box-sizing: border-box;
+    
+}
+.anchor-scroll
+{
+    position:absolute;
+    z-index:10000;
+    bottom: 10vh;
+    left:46%;
+}
+.fa-chevron-down
+{
+    position: absolute;
+    font-size:50px;
+    color:white;
+    cursor: pointer;
+}
+.fa-chevron-down:hover
+{
+    color: seagreen;
+}
+/*---------------------------------- HOMEPAGE STARTS --------------------------------------------------------------------------*/
+/*---------------------------------- CLOTHING STARTS --------------------------------------------------------------------------*/
+#clothing
+{
+    background-color:#F2EEEE;
+    height: 95vh;
+    box-sizing: border-box;
+    padding: 5%;
+    padding-bottom:4%;
+    padding-right:1%;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.heading-tag
+{
+    font-size:56px;
+    text-decoration:underline;
+}
+#cloth-desc
+{
+    background-color:transparent;
+    width:50%;
+    box-sizing: border-box;
+    padding-left:20%;
+    height:auto;
+    
+}
+#cloth-img
+{
+    width:50%;
+    height:70%;
+    margin-top: 2vh;
+    margin-bottom:2vh;
+    border-radius:2%;
+    z-index:1;
+}
+
+.home-img
+{
+    width:100%;
+    height: 100%;
+    border-radius: 5%;
+    margin-left:20%;
+    border:2px solid black;
+}
+.home-btn
+{
+    padding: 20px;
+    font-size:16px;
+    cursor:pointer;
+    color:white;
+    border:1.5px solid black;
+    border-radius:14px;
+    background-color:black;
+    margin-left:40%;
+}
+.home-btn:hover
+{
+    color: black;
+    background-color: white;
+    outline: none; 
+    font-weight: bold;
+}
+.tag
+{
+    font-family: 'Tangerine', cursive;
+    font-size:60px;
+    color: #585858;
+}
+/*---------------------------------- CLOTHING ENDS --------------------------------------------------------------------------*/
+/*---------------------------------- ACCESSORIES STARTS----------------------------------------------------------------------*/
+#accessories
+{
+    /* background-color:silver; */
+    height: 95vh;
+    box-sizing: border-box;
+    padding: 8%;
+    padding-bottom:1%;
+    padding-right:1%;
+    display:flex;
+    flex-wrap: wrap
+}
+#access-desc
+{
+    background-color:#F2EEEE;
+    padding:2%;
+    width:40%;
+    height:80%;
+    border-radius:2%;   
+    margin-left:5%;
+}
+#access-img
+{
+    width:25%;
+    height:85%;
+    margin-top: 2vh;
+    margin-bottom:2vh;
+    border-radius:2%;
+}
+/*---------------------------------- ACCESSORIES ENDS --------------------------------------------------------------------------*/
+/*---------------------------------- HOMEPAGE ENDS --------------------------------------------------------------------------*/
+/* FOOTER */
+footer
+{
+    background-color: black;
+    height:20vh;
+}
+/*----------------------------------------- CARDS --------------------------------------------------------------------------*/
+#card-container
+{
+    display: flex;
+    box-sizing: border-box;
+    padding: 10%;
+    padding-top:4%;
+    text-align: justify;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    background-color:aliceblue; 
+}
+.card
+{
+    width:20%;
+    height: 25%;
+    margin-left:3%;
+    margin-top:2%;
+    cursor: pointer;
+    border: 1px solid black;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 15px;
+    padding:2px;
+    /* box-shadow: 1px 1px 6px 2px silver; */
+}
+.pic
+{
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.name
+{
+    font-size:22px;
+    color:#145A32;
+    font-family: 'Noto Serif', serif;
+}
+.brand
+{
+    font-size:20px;
+    font-family: 'Amatic SC', cursive;
+    color:#626567 ;
+    /* color:#EC7063; */
+    margin-bottom: 10px;
+    margin-top:10px;
+    /* display: none; */
+}
+.price
+{
+    font-size:18px;
+    margin-top:2%;
+    padding:0;
+    color: #505050;
+    font-weight: 600;
+}
+.dataContainer
+{
+    background-color: transparent;
+    padding-top:1%;
+    /* display: none; */
+}
+ .card:hover .pic
+{
+    box-shadow: 1px 1px 6px 2px silver;
+}/*
+.card:hover .dataContainer 
+{
+    /* filter: blur(4px); */
+  /*  display: block;
+}
+.pic:hover
+{
+    filter: blur(4px);
+} */
+/*  */
+/*--------------------- PRODUCT DETAIL PAGE -----------------------------------------------------------------*/
+#mainBody
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+#imageContainer
+{
+    width: auto;
+    margin:auto 10px;
+    height: 80vh;
+}
+#descPrice
+{
+    font-size:24px;
+    margin-top:2%;
+    padding:0;
+    color: #00CC00;
+    font-weight: 600;
+}
+#btnAdd
+{
+    padding: 10px;
+    font-size:18px;
+    cursor:pointer;
+    color:black;
+    border:1.5px solid black;
+    border-radius:8px;
+    outline: none;
+    background-color:white;
+    font-weight: bold;
+    /* margin-left:70%;
+    margin-top:30px; */
+}
+#btnAdd:hover
+{
+    /* border-color:#00CC00;  */
+    color:#8B3A3A;
+    background-color:#F7EDED ;
+}
+#descrpt
+{
+    text-decoration: underline;
+    font-size: 26px;
+    color:#585858;
+    font-family: 'Noto Serif', serif;
+    font-weight:bold;
+}
+#DESC
+{
+    /* background-color: antiquewhite; */
+    margin:10px;
+    /* margin-left:auto;
+    margin-right:10%; */
+    box-sizing: border-box;
+    padding:20px;
+    border: 0.1px solid gray;
+    border-radius:2%;
+    box-shadow:1px 1px 12px silver;
+    width:40%;
+    /* padding-right:50px; */
+}
+#descText
+{
+    font-size:18px;
+    color:#686868;
+    text-align: justify;
+    width:auto;
+    margin-right:0;
+}
+#descName
+{
+    font-family: 'Noto Serif', serif;
+    font-size: auto;
+    color: 	#404040;
+}
+#descBrand
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    color: #909497  ;
+}
+.prvwImg
+{
+    height:80%;
+    width:100%;
+    cursor: pointer;  
+}
+.prvwImg:hover
+{
+    box-shadow:1px 1px 12px silver;
+}
+.prvwImg:active
+{
+    border:1px solid green;
+}
+.imageHolder
+{
+    width: 20%;
+    height:25%;
+    margin:2%;
+    margin-top:6%;
+}
+#prvwContainer
+{
+    display: flex;
+    box-sizing: border-box;
+    width:100%;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+ul
+{
+    border:1px solid black;
+    border-radius:12px;
+    width:80%;
+    box-shadow: 1px 1px 12px silver;
+    box-sizing: border-box;
+    padding: 1%;
+    list-style: none;
+    font-size:24px;
+
+}
+#chckout_body
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#btnPlace
+{
+    padding: 10px;
+    font-size:18px;
+    cursor:pointer;
+    color:black;
+    border:1.5px solid black;
+    border-radius:8px;
+    outline: none;
+    background-color:white;
+    font-weight: bold;
+}
+#body
+{
+    margin-left:35%;
+    margin-top:10%;
+}
+#view
+{
+    display: block;
+    background-color: transparent;
+    border:1px solid black;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top:5px;
+
+}
